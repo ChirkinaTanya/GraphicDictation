@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="turtle">
+        <item>Отступи 5 клеток сверху и 2 слева</item>
+        <item>2 клетки вправо</item>
+        <item>4 клетки вниз</item>
+        <item>1 клетка вправо</item>
+        <item>2 клетки вверх</item>
+        <item>1 клетка вправо</item>
+        <item>1 клетка вверх</item>
+        <item>4 клетки вправо</item>
+        <item>1 клетка вниз</item>
+        <item>1 клетка вправо</item>
+        <item>3 клетки вниз</item>
+        <item>1 клетка влево</item>
+        <item>1 клетка вниз</item>
+        <item>1 клетка влево</item>
+        <item>1 клетка вверх</item>
+        <item>4 клетки влево</item>
+        <item>1 клетка вниз</item>
+        <item>1 клетка влево</item>
+        <item>1 клетка вверх</item>
+        <item>1 клетка влево</item>
+        <item>3 клетки вверх</item>
+        <item>1 клетка влево</item>
+        <item>2 клетки вверх</item>
+        <item>Молодец! У тебя получилась черепаха. Для выхода нажми вперед.</item>
+    </string-array>
+</resources>

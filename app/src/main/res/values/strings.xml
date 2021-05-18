@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GraphicDictation</string>
+    <string name="app_name_ru">Графический диктант</string>
+    <string name="levels_list">Выбери уровень</string>
+    <string name="lets_draw">Давай рисовать</string>
+    <string name="settings">Настройки</string>
+    <string name="how_to_draw">Как писать графический диктант</string>
+</resources>

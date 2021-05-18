@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LevelsActivity">
+
+    <Button
+        android:id="@+id/level2Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
+        android:onClick="startTurtle"
+        android:text="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/level1Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:onClick="startMushroom"
+        android:text="1"
+        app:layout_constraintBottom_toBottomOf="@+id/level2Btn"
+        app:layout_constraintEnd_toStartOf="@+id/level2Btn"
+        app:layout_constraintTop_toTopOf="@+id/level2Btn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/level3Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:onClick="startElephant"
+        android:text="3"
+        app:layout_constraintEnd_toEndOf="@+id/level1Btn"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/level1Btn"
+        app:layout_constraintTop_toBottomOf="@+id/level1Btn" />
+
+    <Button
+        android:id="@+id/level4Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startShip"
+        android:text="4"
+        app:layout_constraintBottom_toBottomOf="@+id/level3Btn"
+        app:layout_constraintEnd_toEndOf="@+id/level2Btn"
+        app:layout_constraintTop_toTopOf="@+id/level3Btn"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

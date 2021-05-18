@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="elephant">
+        <item>Отступи 10 клеток сверху</item>
+        <item>1 клетка вправо</item>
+        <item>4 клетки вверх</item>
+        <item>1 клетка вправо</item>
+        <item>1 клетка вверх</item>
+        <item>1 клетка вправо</item>
+        <item>1 клетка вверх</item>
+        <item>3 клетки вправо</item>
+        <item>3 клетки вниз</item>
+        <item>5 клеток вправо</item>
+        <item>6 клеток вниз</item>
+        <item>1 клетка влево</item>
+        <item>2 клетки вверх</item>
+        <item>1 клетка влево</item>
+        <item>2 клетки вниз</item>
+        <item>1 клетка влево</item>
+        <item>2 клетки вверх</item>
+        <item>2 клетки влево</item>
+        <item>2 клетки вниз</item>
+        <item>1 клетка влево</item>
+        <item>2 клетки вверх</item>
+        <item>1 клетка влево</item>
+        <item>2 клетки вниз</item>
+        <item>1 клетка влево</item>
+        <item>5 клеток вверх</item>
+        <item>1 клетка влево</item>
+        <item>3 клетки вниз</item>
+        <item>2 клетки влево</item>
+        <item>1 клетка вверх</item>
+        <item>Молодец! У тебя получился слон. Для выхода нажми вперед.</item>
+    </string-array>
+</resources>

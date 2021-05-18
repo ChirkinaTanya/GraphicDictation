@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InstructionActivity">
+
+    <TextView
+        android:id="@+id/instructionForDictation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="350dp"
+        android:text="Для правильного выполнения графического диктанта нужно лишь закрашивать ребра клеточек, нажимая на них.
+В каком направлении рисовать подскажут инструкции в нижней части экрана.
+Переход к следующей инструкции осуществляется по кнопке вперед.
+Предусмотрена возможность озвучить инструкцию. После завершения диктанта в нижней части экрана появится название получившейся фигуры.
+Поверьте, это несложно и очень увлекательно! Удачи!"
+        android:textColor="#0B0974"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <Button
+        android:id="@+id/playFromInstructionsBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:text="Играть"
+        android:onClick="openLevels"
+        app:layout_constraintEnd_toEndOf="@+id/instructionForDictation"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/instructionForDictation"
+        app:layout_constraintTop_toBottomOf="@+id/instructionForDictation" />
+
+    <TextView
+        android:id="@+id/instructionForTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:text="Данное приложение заботится о здоровье Вашего ребенка, поэтому в соответсвии с
+рекомендациями время использования ограничено 15 минутами. Вы можете изменить это в настройках."
+        android:textColor="#0B0974"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="@+id/playFromInstructionsBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/playFromInstructionsBtn"
+        app:layout_constraintTop_toBottomOf="@+id/playFromInstructionsBtn" />
+
+    <Button
+        android:id="@+id/settingsFromInstructionsBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="318dp"
+        android:layout_marginRight="318dp"
+        android:text="Настройки"
+        android:onClick="openSettings"
+        app:layout_constraintEnd_toEndOf="@+id/instructionForTime"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/instructionForTime"
+        app:layout_constraintTop_toBottomOf="@+id/instructionForTime" />
+</androidx.constraintlayout.widget.ConstraintLayout>

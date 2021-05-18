@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ship">
+        <item>Отступи 10 клеток сверху</item>
+        <item>5 клеток вправо</item>
+        <item>7 клеток вверх</item>
+        <item>1 клетка вправо</item>
+        <item>1 клетка вниз</item>
+        <item>1 клетка вправо</item>
+        <item>1 клетка вниз</item>
+        <item>1 клетка вправо</item>
+        <item>1 клетка вниз</item>
+        <item>1 клетка вправо</item>
+        <item>3 клетки вниз</item>
+        <item>3 клетки влево</item>
+        <item>1 клетка вниз</item>
+        <item>5 клеток вправо</item>
+        <item>1 клетка вниз</item>
+        <item>1 клетка влево</item>
+        <item>1 клетка вниз</item>
+        <item>1 клетка влево</item>
+        <item>1 клетка вниз</item>
+        <item>7 клеток влево</item>
+        <item>1 клетка вверх</item>
+        <item>1 клетка влево</item>
+        <item>1 клетка вверх</item>
+        <item>1 клетка влево</item>
+        <item>1 клетка вверх</item>
+        <item>Молодец! У тебя получился корабль. Для выхода нажми вперед.</item>
+    </string-array>
+</resources>
